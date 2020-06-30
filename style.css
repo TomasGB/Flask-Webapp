@@ -1,0 +1,325 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    /*background-image: linear-gradient(#000000, rgb(78, 78, 77));
+    background-repeat: no-repeat;*/
+    background-color: rgb(27, 27, 26);
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+header{
+    text-align: center;
+    font-size: xx-large;
+    /*background-color: rgb(255, 105, 180);*/
+    margin: 0px;
+    padding-top: 20px;
+    padding: 20px 10px;
+}
+header h1{
+    color: rgb(230, 112, 17);
+    padding-top: 30px;
+}
+header h4{
+    text-align: center;
+}
+nav{
+    margin-top: 0px;
+}
+.nav-bar{ 
+    background: rgb(0, 0, 0,0);
+    flex-direction: row;
+    display: flex;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif, Arial;
+    font-weight: bold;    
+}
+a{
+    text-decoration: none;
+    color: rgb(197, 197, 197)
+}
+ul{ 
+    margin: 0px;
+    padding: 0px 10px 0px 10px;
+    list-style-type: none;   
+}
+.nav-bar li:hover{
+    background: rgb(49, 49, 49);
+    border-radius: 50%;
+    
+}
+li{
+    display: inline-flex;
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+    
+}
+/*----------------------------------BODY------------------------------------------------*/
+body{
+    padding: 3% 0px 0px 0px;
+    font-family: Helvetica, sans-serif, Arial;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+section{
+    margin:  20px 0px 10px 0px;
+    color: black;
+    
+
+}
+/*------------------------------footer----------------------------------*/
+footer{
+    padding-top: 80px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-content: justify;
+    
+}
+
+footer .buttonsf{
+    display: inline-block;
+    width: 100vw;
+    align-content: stretch;
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: ivory;
+}
+footer .buttonsf ul li{
+    padding: 20px 40px 10px 50px;
+
+}
+footer .buttonsf ul li i{
+    color:black;
+    padding: 5px;
+
+    
+} 
+footer .buttonsf ul li i:hover{
+    background-color: rgb(27, 27, 26);
+    color: rgb(255, 255, 255);
+}
+
+/*---------------------Index---------------------------------------------------*/
+.seccion-foto img{
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    margin: 0px;
+    object-position: center;
+    padding-top: 30px ;
+
+}
+.centrado{
+    text-align: center;
+}
+.seccion-1{
+    display: flex;
+}
+.seccion-1 p{
+    font-size: x-large;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    
+    
+}
+.seccion-1 div h2{
+    color: white;
+}
+
+.seccion-1 div{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+        
+}
+.seccion-2{
+    text-align: justify;
+    margin-right: auto;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    font-family: Helvetica, sans-serif, Arial;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.seccion-2 div.global{
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 20px 10px 40px 10px;
+    padding-bottom: 20px;
+    
+}
+.seccion-2 h2{
+    color: rgb(230, 112, 17);
+}
+.global div{
+    margin-left: 70px;
+
+
+}
+.seccion-2 li{
+    
+    font-style: oblique;
+    display: list-item;
+    list-style-type: none;
+    margin: 0px 50px 0px 50px; 
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+/*--------------------Music----------------------------------------------*/
+.Music{
+    color: white;
+    font-size: larger;
+    font-family: Helvetica, sans-serif, Arial;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+.EP-class {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px;
+
+}
+
+.EP-embebed{
+  
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin: auto;
+    align-content: center;
+   
+   
+}
+
+#youtube {
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    widows: 400px;
+    height:307px;
+    
+}
+/*---------------------Projects---------------------------------------------------*/
+.Projects-Global {
+    color: white;
+    font-size: larger;
+    font-family: Helvetica, sans-serif, Arial;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.Projects-Global div{
+    margin-top:10px ;
+    margin-bottom: 10px;
+    padding-left:0px ;
+    padding-right:0px ;
+    display: inline-block;
+    
+}
+.Projects-Global h3, h2{
+    color: rgb(230, 112, 17);
+}
+.Projects-Global li{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    margin-top:10px ;
+    display: inline-block;
+    
+    
+}
+
+.display li{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.proj{
+    
+    width: 380px;
+    height: fit-content;
+    margin-block-start: 0px;
+    
+}
+.repo a i{
+    color: black;
+    font-size: 40px;
+    margin: 2px;
+
+}
+.repo a i:hover{
+    color:rgb(214, 103, 12);
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.Projects-Global p{
+    margin: 0px;
+    margin-top: 0px;
+}
+
+/*---------------------Contact-------------------------------------------------*/
+#contact-find-me{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-family: Helvetica, sans-serif, Arial;
+    padding:60px ;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: stretch;
+}
+.buttons ul{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+.buttons ul li{
+    width: fit-content;
+    margin: 0px;
+    /*padding-left: 80px;*/
+
+}
+ul li i:hover{
+    background-color: black;
+    border-radius: 10px;
+}
+.buttons ul li i{
+    font-size: 90px;
+    color: white;
+    padding: 20px;
+
+}
+.contact-global{
+    padding-bottom: 25px;
+}
+/*------------------------------------------------------------------------------*/
